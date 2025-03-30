@@ -1,5 +1,5 @@
 import { SectionTitle } from './ui/SectionTitle';
-import { SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiExpress, SiMongodb, SiNextdotjs, SiTypescript, SiCplusplus, SiGit, SiGithub, SiVite, SiFlutter, SiAndroidstudio, SiSqlite, SiVercel, SiNetlify, SiSelenium, SiElectron, SiFfmpeg, SiJupyter, SiFlask, SiQt } from 'react-icons/si';
+import { SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiExpress, SiMongodb, SiNextdotjs, SiTypescript, SiCplusplus, SiGit, SiGithub, SiVite, SiFlutter, SiAndroidstudio, SiSqlite, SiVercel, SiNetlify, SiSelenium, SiElectron, SiFfmpeg, SiJupyter, SiFlask, SiQt, SiIonic } from 'react-icons/si';
 import { FaReact, FaNodeJs, FaJava, FaPython } from 'react-icons/fa';
 import { VscVscode } from "react-icons/vsc";
 import { IoLogoFirebase } from "react-icons/io5";
@@ -35,6 +35,7 @@ const languages = [
   { name: 'Firebase', icon: IoLogoFirebase, color: '#ffca28' },
   { name: 'SQLite', icon: SiSqlite, color: '#003b57' },
   { name: 'SQL Server', icon: DiMsqlServer, color: '#cc2929' },
+  { name: 'Ionic', icon: SiIonic, color: '#3880ff' },
 ]
 
 export function Skills() {
