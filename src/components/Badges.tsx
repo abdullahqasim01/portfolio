@@ -3,6 +3,18 @@ import { SectionTitle } from "./ui/SectionTitle";
 
 const badges = [
     {
+      platform: "GitHub",
+      title: "YOLO",
+      image: "https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png",
+      profile: "https://github.com/abdullahqasim01?tab=achievements",
+    },
+    {
+      platform: "GitHub",
+      title: "Pull Shark",
+      image: "https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png",
+      profile: "https://github.com/abdullahqasim01?tab=achievements",
+    },
+    {
       platform: "Google For Developers",
       title: "Project IDX User",
       image: "https://developers.google.com/static/profile/badges/activity/idx/idx-user/badge.svg",
@@ -14,7 +26,7 @@ const badges = [
       image: "https://developers.google.com/static/profile/badges/recognitions/learnings/learnings.svg",
       profile: "https://g.dev/abdullahqasim",
     },
-  
+
     {
       platform: "Google For Developers",
       title: "Android Studio User",

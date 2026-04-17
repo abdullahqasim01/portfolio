@@ -1,5 +1,5 @@
 import { SectionTitle } from './ui/SectionTitle';
-import { SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiExpress, SiMongodb, SiNextdotjs, SiTypescript, SiCplusplus, SiGit, SiGithub, SiVite, SiFlutter, SiAndroidstudio, SiSqlite, SiVercel, SiNetlify, SiSelenium, SiElectron, SiFfmpeg, SiJupyter, SiFlask, SiQt, SiIonic } from 'react-icons/si';
+import { SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiExpress, SiMongodb, SiNextdotjs, SiTypescript, SiCplusplus, SiGit, SiGithub, SiVite, SiFlutter, SiAndroidstudio, SiSqlite, SiVercel, SiNetlify, SiSelenium, SiElectron, SiFfmpeg, SiJupyter, SiFlask, SiQt, SiIonic, SiNestjs, SiPostgresql, SiAmazon, SiC, SiDart } from 'react-icons/si';
 import { FaReact, FaNodeJs, FaJava, FaPython } from 'react-icons/fa';
 import { VscVscode } from "react-icons/vsc";
 import { IoLogoFirebase } from "react-icons/io5";
@@ -12,11 +12,14 @@ const languages = [
   { name: 'TypeScript', icon: SiTypescript, color: '#3178c6' },
   { name: 'Python', icon: FaPython, color: '#306998' },
   { name: 'C++', icon: SiCplusplus, color: '#00599c' },
+  { name: 'C', icon: SiC, color: '#a8b9cc' },
   { name: 'React', icon: FaReact, color: '#61dafb' },
   { name: 'Flutter', icon: SiFlutter, color: '#02569b' },
+  { name: 'Dart', icon: SiDart, color: '#0175c2' },
   { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
   { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
   { name: 'Express', icon: SiExpress, color: '#000000' },
+  { name: 'NestJS', icon: SiNestjs, color: '#e0234e' },
   { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#38b2ac' },
   { name: 'Vite', icon: SiVite, color: '#646cff' },
   { name: 'Selenium', icon: SiSelenium, color: '#09b608' },
@@ -29,9 +32,11 @@ const languages = [
   { name: 'Android Studio', icon: SiAndroidstudio, color: '#3ddc84' },
   { name: 'Vercel', icon: SiVercel, color: '#000000' },
   { name: 'Netlify', icon: SiNetlify, color: '#0dbfbc' },
+  { name: 'AWS', icon: SiAmazon, color: '#ff9900' },
   { name: 'FFMpeg', icon: SiFfmpeg, color: '#097c13' },
   { name: 'Jupyter', icon: SiJupyter, color: '#f37726' },
   { name: 'MongoDB', icon: SiMongodb, color: '#47a248' },
+  { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
   { name: 'Firebase', icon: IoLogoFirebase, color: '#ffca28' },
   { name: 'SQLite', icon: SiSqlite, color: '#003b57' },
   { name: 'SQL Server', icon: DiMsqlServer, color: '#cc2929' },
